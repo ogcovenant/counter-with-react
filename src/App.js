@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <h1>{count}</h1>
-      <div>
+      <div className="controls">
         <button onClick={increment}>+</button>
         <button onClick={reset}>Reset</button>
         <button onClick={decrement}>-</button>

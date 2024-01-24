@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.controls{
+    display: flex;
+    gap: 20px;
+}
+.controls button{
+    padding: 15px;
+    outline: none;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
